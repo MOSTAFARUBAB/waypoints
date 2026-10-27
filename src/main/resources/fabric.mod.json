@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "simplewaypoints",
+  "version": "${version}",
+  "name": "Simple Waypoints",
+  "description": "Client-side waypoints with on-screen labels, a keybind and commands.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.waypoints.WaypointsMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": ">=26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
